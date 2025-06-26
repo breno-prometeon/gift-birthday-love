@@ -1,7 +1,7 @@
 <template>
   <div class="fixed top-0 left-0 w-full h-full pointer-events-none overflow-hidden z-0">
     <div
-      v-for="n in 4"
+      v-for="n in 10"
       :key="n"
       class="absolute text-pink-400 text-xl animate-heart"
       :style="randomStyle()"
