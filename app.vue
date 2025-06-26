@@ -1,4 +1,4 @@
-<template>
+<template class="overflow-hidden">
   <div>
     <NuxtPage />
   </div>

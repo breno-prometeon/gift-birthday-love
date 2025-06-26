@@ -18,13 +18,14 @@
 
     <button
       @click="startTribute()"
-      class="bg-pink-600 hover:bg-pink-700 text-white font-semibold py-2 px-6 rounded-full shadow-md transition duration-300"
+      class="bg-pink-600 hover:bg-pink-800 text-white font-semibold py-2 px-6 rounded-full shadow-md transition duration-600"
     >
-      Sobre nós
+      Clique aqui
     </button>
 
     <audio ref="player" :src="musica" />
   </section>
+  <Heart />
 </template>
 
 <script setup>
